@@ -22,11 +22,11 @@ function handleProjectsClick() {
 }
 
 function handleLinkedinClick() {
-    window.location.href = 'https://www.linkedin.com/in/rohan-rashingkar/';
+    window.open('https://www.linkedin.com/in/rohan-rashingkar/', '_blank');
 }
 
 function handleGithubClick() {
-    window.location.href = 'https://github.com/22rohanr/';
+    window.open('https://github.com/22rohanr/', '_blank');
 }
 
 function handleNameClick() {
