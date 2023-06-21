@@ -7,7 +7,7 @@ body {
     line-height: 1.5;
     padding: 1em 1em;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 65%;
 }
 
 
@@ -26,12 +26,13 @@ h2 {
     font-weight: normal;
     font-size: 1.25em;
     margin-top: -1.5em;
+    margin-right: 1em;
 }
 
 .top-buttons {
     display: flex;
     gap: 1em;
-    margin-right: -15.75em;
+    margin-right: -13.5em;
 
 }
 
@@ -62,7 +63,7 @@ img {
     float: left;
     margin-top: 10.2em;
     margin-right: 4em;
-    margin-left: -3em;
+    margin-left: -2em;
 }
 
 .header {
@@ -72,7 +73,7 @@ img {
 }
 
 .header button {
-    margin-left: 1.25em;
+    margin-left: 2.75em;
     padding: 0;
     border: none;
     background: none;
