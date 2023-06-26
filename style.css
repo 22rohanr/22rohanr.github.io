@@ -5,39 +5,41 @@ body {
     font-family: "Roboto";
     color: #555;
     line-height: 1.5;
-    padding: 1em 1em;
+    padding: 1em;
     margin: 0 auto;
-    max-width: 65%;
+    width: 90%; /* use percentage to make it responsive */
 }
-
 
 h1 {
     text-align: left;
     color: #333;
     font-size: 2em;
-    margin-top: 3em;
     font-weight: normal;
 }
 
 h2 {
     text-align: left;
-    padding-top: 1em;
     color: #333;
     font-weight: normal;
     font-size: 1.25em;
-    margin-top: -1.5em;
-    margin-right: 1em;
+    margin-top: 1em; /* reduced this to avoid unnecessary space */
 }
 
-.top-buttons {
+.nav-container {
     display: flex;
-    gap: 1em;
-    margin-right: -13.5em;
-
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* this allows the content to move to next line when the viewport size decreases */
 }
 
-.top-buttons button {
-    margin-left: 1em;
+.top-buttons,
+.header {
+    display: flex;
+    gap: 1.5em;
+}
+
+.top-buttons button,
+.header button {
     padding: 0;
     border: none;
     background: none;
@@ -51,43 +53,30 @@ h2 {
     text-decoration: underline; 
 }
 
-.content-wrapper {
-    overflow: auto;
-}
-  
-.text-content {
-    overflow: hidden;
-}
-
-img {
-    float: left;
-    margin-top: 10.2em;
-    margin-right: 4em;
-    margin-left: -2em;
-}
-
-.header {
-    display: flex;
-    margin-left: -17.5em;
-    gap: 1em;
-}
-
 .header button {
-    margin-left: 2.75em;
-    padding: 0;
-    border: none;
-    background: none;
-    font-family: "Roboto";
-    font-size: 1.5em;
-    color: #333;
-    cursor: pointer;
     font-weight: bold;
     white-space: nowrap;
 }
 
-.nav-container {
+.content-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0.25em;
+    flex-wrap: wrap;
+    margin-top: 2.5em;
+}
+
+.text-content {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 50%;
+    margin-left: 5%;
+}
+
+.image img {
+    display: flex;
+    width: 226px;
+    height: 204px;
+    /* margin-right: 25%; */
+    float: right;
 }
