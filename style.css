@@ -1,8 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Lato&display=swap');
 body {
     background: #eee;
-    font-family: "Roboto";
+    font-family: "Lato";
     color: #555;
     line-height: 1.5;
     padding: 1em;
@@ -43,7 +42,7 @@ h2 {
     padding: 0;
     border: none;
     background: none;
-    font-family: "Roboto";
+    font-family: "Lato";
     font-size: 1.5em;
     color: #333;
     cursor: pointer;
@@ -79,4 +78,34 @@ h2 {
     height: 204px;
     /* margin-right: 25%; */
     float: right;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    width: calc(50% - 40px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.project:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project-description {
+    padding: 20px;
 }
