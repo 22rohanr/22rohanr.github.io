@@ -29,13 +29,12 @@ h2 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-right: 5%;
 }
 
 .top-buttons,
 .header {
     display: flex;
-    gap: 8%;
+    gap: 1.5em;
 }
 
 .top-buttons button,
@@ -94,7 +93,7 @@ h2 {
     border: 2px solid #ccc;
     border-radius: 25px;
     margin: 2%;
-    width: 475px;
+    width: 500px;
     /* min-width: 350px; */
     box-shadow: 0 0 100% rgba(0,0,0,0.1);
     transition: box-shadow 0.2s ease-in-out;
