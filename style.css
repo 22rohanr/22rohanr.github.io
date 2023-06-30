@@ -35,6 +35,7 @@ h2 {
 .header {
     display: flex;
     gap: 1.5em;
+    flex-wrap:wrap;
 }
 
 .top-buttons button,
@@ -43,7 +44,7 @@ h2 {
     border: none;
     background: none;
     font-family: "Lato";
-    font-size: 1.4em;
+    font-size: 1.35em;
     color: #333;
     cursor: pointer;
 }
