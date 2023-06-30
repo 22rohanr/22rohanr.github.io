@@ -29,12 +29,13 @@ h2 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-right: 5%;
 }
 
 .top-buttons,
 .header {
     display: flex;
-    gap: 1.5em;
+    gap: 8%;
 }
 
 .top-buttons button,
