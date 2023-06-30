@@ -35,7 +35,6 @@ h2 {
 .header {
     display: flex;
     gap: 1.5em;
-    flex-wrap:wrap;
 }
 
 .top-buttons button,
