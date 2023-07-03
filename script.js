@@ -14,7 +14,7 @@ nameButton.addEventListener('click', handleNameClick)
 
 
 function handleHomeClick() {
-    window.location.href = 'home';
+    window.location.href = '/';
 }
 
 function handleProjectsClick() {
@@ -30,5 +30,5 @@ function handleGithubClick() {
 }
 
 function handleNameClick() {
-    window.location.href = 'home';
+    window.location.href = '/';
 }
